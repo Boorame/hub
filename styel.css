@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.car-parent .car1{
+    background-color: rgb(248, 250, 252);
+    height: 540px;
+    width: 350px;
+    margin-top: 43px;
+    border-radius: 25px;
+}
+.car-parent {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    justify-content: center;
+}
+.car-parent .car1  img{
+    width: 350px;
+    height: 220px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.car-parent .car1  button{
+    margin-top: 10px;
+    margin-left: 16px;
+    padding: 4px;
+    width: 150px;
+    font-size: 20px;
+    color: rgb(251, 252, 253);
+    background-color: rgb(98, 133, 248);
+    border-radius: 16px;
+    border: 3px solid rgb(98, 133, 248);
+}
+.car-parent .car1 .btn button{
+    margin-top: 10px;
+    margin-left: 18px;
+    padding: 2px;
+    width: 80px;
+    font-size: 20px;
+    color: rgb(251, 252, 253);
+    background-color: rgb(252, 200, 105);
+    border-radius: 16px; 
+    border: 4px solid rgb(252, 202, 109);
+}
+.car-parent .car1 .btn2 button{
+    margin-top: 10px;
+    margin-left: 18px;
+    padding: 4px;
+    width: 150px;
+    font-size: 20px;
+    color: rgb(251, 252, 253);
+    background-color: rgb(235, 61, 48);
+    border-radius: 16px; 
+    border: 3px solid rgb(235, 61, 48) ;  
+}
+
+.car-parent .car1 h2{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.car-parent .car1 .btn h2{
+ font-size: 30px;
+}
+.car-parent .car1 p{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.car-parent .car1 .imgs img{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 80px;
+    border-radius: 100px;
+    
+}
+
+.car-parent .car1 .flex{
+    display: flex;
+}
+
+.car-parent .car1 .flex h3 {
+  margin-top: 100px;
+    margin-left: 10px;
+    font-size: 14px;  
+}
+.car-parent .car1 .flex h3 label{
+    font-size: 10px;
+}
+
+.car-parent .car1 .flex p{
+    margin-top: 90px;
+    font-size: 10px;
+    text-align: left;
+}
+
+
+.car-parent .car1 .flex{
+    display: flex;
+}
+
+.car-parent .car1 .imgs{
+    display: flex;
+    
+}
+.car-parent .car1 .imgs h1{
+    margin-top: 60px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.car-parent .car1 .imgs p{
+    margin-top: 99px;
+    font-size: 10px;
+    margin-right: 3px;
+}
+.car-parent .car1 .btn2 .imgs {
+    display: flex;
+}
+
+.car-parent .car1 .btn2 .imgs h1{
+    margin-top: 60px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .car-parent{
+display: grid;
+padding: 40px 20px;
+grid-template-columns: 350px;
+    }
+}
